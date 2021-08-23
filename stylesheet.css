@@ -15,7 +15,7 @@ body {
   background-image: url(/images/pattern-bg.svg), url(/images/pattern-curve.svg);
   background-size: 300px 280px, 19rem 4rem;
   background-repeat: no-repeat, no-repeat;
-  background-color: aqua;
+  /* background-color: aqua; */
   background-position: top, bottom;
 }
 
