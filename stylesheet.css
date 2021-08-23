@@ -1,0 +1,9 @@
+.container {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.pic {
+  width: 200px;
+  border-radius: 3px;
+}
