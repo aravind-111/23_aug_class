@@ -7,7 +7,7 @@ body {
 
 .container {
   width: 300px;
-  height: 550px;
+  height: 600px;
   justify-content: center;
   align-items: center;
   /* margin-right: 200px; */
@@ -22,9 +22,15 @@ body {
 .pic {
   margin-left: 34px;
   /* margin-right: auto; */
-  margin-top: -25px;
+  margin-top: -3rem;
   width: 230px;
-  border-radius: 3px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 30px;
+  display: absolute;
+}
+
+.text {
+  margin-top: -40px;
 }
 
 p {
@@ -33,37 +39,74 @@ p {
   color: hsl(240, 38%, 20%);
 }
 
-.Tanya {
-  position: relative;
+.Tanya,
+.John {
+  margin-top: 0rem;
   display: flex;
   flex-direction: column;
 }
 
+.Tanya {
+  position: relative;
+  opacity: 0;
+}
+
 .John {
   position: absolute;
-  opacity: 0;
+  opacity: 1;
 }
 
 .thanya_p,
 .john_p {
-  margin-top: 2rem;
-  background-image: url(/images/pattern-quotes.svg);
-  background-repeat: no-repeat;
-  background-size: 2.6rem;
-  background-position-x: center;
+  margin-top: 3rem;
+  position: relative;
+}
+
+.quote {
+  position: absolute;
+  width: 3rem;
+  margin-top: 3rem;
+  margin-left: -11rem;
+}
+
+.quote_pic {
+  width: 4rem;
 }
 
 .review {
-  font-size: 700;
+  font-size: 17px;
+  font-weight: 500;
 }
 
 .name {
   margin-bottom: 0px;
-  font-weight: bold;
-  font-size: 500;
+  font-weight: 700;
+  font-size: 15px;
 }
 
 .designation {
   margin-top: 0px;
-  font-size: 300;
+  font-size: 13px;
+  color: #808080;
+  font-weight: 300;
+}
+
+.buttons {
+  margin-left: 7rem;
+  margin-top: -1.3rem;
+  /* display: flex; */
+  display: display;
+  width: 4rem;
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  border-radius: 50px;
+}
+
+.prev {
+  cursor: pointer;
+}
+
+.next {
+  margin-left: 2.1rem;
+  cursor: pointer;
 }
