@@ -1,13 +1,69 @@
+body {
+  font-family: 'Inter', sans-serif;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
 .container {
-  margin-left: 400px;
-  margin-right: 200px;
+  width: 300px;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  /* margin-right: 200px; */
+  display: flex;
+  background-image: url(/images/pattern-bg.svg), url(/images/pattern-curve.svg);
+  background-size: 300px 280px, 19rem 4rem;
+  background-repeat: no-repeat, no-repeat;
+  background-color: aqua;
+  background-position: top, bottom;
 }
 
 .pic {
-  width: 200px;
+  margin-left: 34px;
+  /* margin-right: auto; */
+  margin-top: 30px;
+  width: 230px;
   border-radius: 3px;
 }
 
 p {
-  width: 200px;
+  width: 300px;
+  text-align: center;
+  color: hsl(240, 38%, 20%);
+}
+
+.Tanya {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.John {
+  position: absolute;
+  opacity: 0;
+}
+
+.thanya_p,
+.john_p {
+  margin-top: 2rem;
+  background-image: url(/images/pattern-quotes.svg);
+  background-repeat: no-repeat;
+  background-size: 2.6rem;
+  background-position-x: center;
+}
+
+.review {
+  font-size: 700;
+}
+
+.name {
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 500;
+}
+
+.designation {
+  margin-top: 0px;
+  font-size: 300;
 }
